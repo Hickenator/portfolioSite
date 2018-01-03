@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Multimedia Works | Multimedia Portfolio | Tyler Hickey</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+      <header>
+        <h1 itemscope itemtype="http://schema.org/Person"><a href="index.html"><span itemprop="givenName">Tyler</span> <span itemprop="familyName">Hickey</span></a></h1>
+        <h2 id="tagline">Digital Authoring, Technical Writing, Professional Editing</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="writing.html">Writing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <hr>
+
+      <div id="wrapper"> <!--Start Wrapper-->
+
+        <div id="workContainer">
+          <br>
+
+          <div id="digital" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="http://dtc-wsuv.org/thickey16/corridors"><img src="images/corridors.png" alt="Picture of Corridor's End main screen, links to the work on click." id="workPic" itemprop="image" /></a>
+            <a href="http://dtc-wsuv.org/thickey16/corridors" itemprop="url"><h3 class="title" itemprop="name">Corridor's End</h3></a>
+            <h4 class="tags">HTML5, JavaScript, Game</h4>
+            <p class="description"><em>Corridor's End</em> is an HTML5 <span itemprop="genre">game</span> coded in JavaScript by <span itemprop="accountablePerson">Tyler Hickey</span>where the player is thrust into a text-based adventure. Players fight against creatures and specters along a dark corridor, and are asked to make an ethical choice that may just be the difference between life and death.</p>
+          </div>
+
+          <div id="digital" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="http://dtc-wsuv.org/thickey16/acquaintance"><img src="images/acquaintance.png" alt="Picture of The Acquaintance main screen, links to the work on click." id="workPic" itemprop="image"></a>
+            <a href="http://dtc-wsuv.org/thickey16/acquaintance" itemprop="url"><h3 class="title" itemprop="name">The Acquaintance</h3></a>
+            <h4 class="tags">HTML5, Typist.js, Branching Narrative</h4>
+            <p class="description"><em>The Acquaintance</em> is a whimsical piece of <span itemprop="genre">interactive fiction</span> by <span itemprop="accountablePerson">Tyler Hickey</span> that takes advantage of the affordances of hypertext in order to simulate a conversation between a rogue computer system and the user.</p>
+          </div>
+
+          <div id="digital" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="http://dtc-wsuv.org/thickey16/account4"><img src="images/account4.png" alt="Picture of An Account of the Fourth screen, links to the work on click." id="workPic" itemprop="image"></a>
+            <a href="http://dtc-wsuv.org/thickey16/account4" itemprop="url"><h3 class="title" itemprop="name">An Account of the Fourth</h3></a>
+            <h4 class="tags">JavaScript, Google Maps API, E-Lit</h4>
+            <p class="description"><em>An Account of the Fourth</em> is a piece of <span itemprop="genre">electonic literature</span> by <span itemprop="accountablePerson">Tyler Hickey</span> made using Google Maps API to track the proceedings of a subject through the streets of New York.</p>
+          </div>
+
+          <div id="digital" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="http://dtc-wsuv.org/thickey16/retail" itemprop="url"><img src="images/retail.png" alt="Picture of Retail Hell screen, links to the work on click." id="workPic" itemprop="image"></a>
+            <a href="http://dtc-wsuv.org/thickey16/retail"><h3 class="title" itemprop="name">Retail Hell</h3></a>
+            <h4 class="tags">HTML5, FancyBox, Tyophraphic Narrative</h4>
+            <p class="description"><em>Retail Hell</em> is a <span itemprop="genre">typographic narrative</span> by <span itemprop="accountablePerson">Tyler Hickey</span>, and uses the affordances of digital tools to alter the inherent meaning of a story through the manipulation of its typography. Many principles from Johanna Drucker's <em>Diagrammatic Writing</em> are implemented here.</p>
+          </div>
+
+          <div id="digital" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="http://dtc-wsuv.org/thickey16/peapod"><img src="images/peapod.png" alt="Picture of PeaPod main screen, links to the work on click." id="workPic" itemprop="image"></a>
+            <a href="http://dtc-wsuv.org/thickey16/peapod" itemprop="url"><h3 class="title" itemprop="name">PeaPod</h3></a>
+            <h4 class="tags">HTML5, CSS3, E-Lit</h4>
+            <p class="description"><em>PeaPod</em> is a piece of <span itemprop="genre">electronic literature</span> by <span itemprop="accountablePerson">Tyler Hickey</span> that encourages open exploration of the faux-social media platform presented in order to uncover the truth behind events that took place in the days previous. This piece particularly explores aspects of digital anonymity and identity.</p>
+          </div>
+        </div>
+
+      </div> <!--Ends Wrapper-->
+
+      <hr>
+
+      <footer>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="writing.html">Writing</a></li>
+          </ul>
+        </nav>
+      <address>
+          <a href="mailto:hickeyt3@outlook.com">Contact Me</a><br>
+          <time datetime="2017-03-14">Last Updated: March 14, 2017</time>
+      </address>
+      </footer>
+
+  </body>
+</html>
